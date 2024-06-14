@@ -7,10 +7,8 @@
 body {
     min-height: 100vh;
     background-color: black;
-    font-size: 3rem;
     color: whitesmoke;
-    display: flex;
-    flex-flow: column;
+    font-size: 3rem;
 }
 
 nav {
@@ -20,20 +18,29 @@ nav {
     font-size: 2.5rem;
 }
 
-
-
 main {
-    flex-grow: 1;
-    display: grid;
-    place-content: center;
+    padding: 1rem;
 }
-h1, p {
-    text-align: center;
+
+section {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
 }
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
 a {
     text-decoration: none;
     color: #81dbb8;
 }
-a:hover{
-    opacity:.85;
+
+a:hover {
+    opacity: .85;
 }
